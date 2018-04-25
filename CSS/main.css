@@ -1,0 +1,38 @@
+div{
+  /*width: 5em;
+  height: 5em;*/
+  position: absolute;
+}
+#box1{
+  background-color: red;
+  top: 1em;
+  left: 1em;
+  bottom: 1em;
+  right: 1em;
+}
+#box2{
+  background-color: green;
+  /*position: relative;*/
+  /*left: 5em;*/
+  /*top: 0;
+  right: 0;*/
+  top: 2em;
+  left: 2em;
+  bottom: 2em;
+  right: 2em;
+}
+#box2 div{
+  width: 2em;
+  height: 2em;
+  background-color: blue;
+}
+#box3{
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
+#box4{
+  background-color: yellow;
+  left: 0;
+  bottom: 0;
+}
